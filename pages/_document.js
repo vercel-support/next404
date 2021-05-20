@@ -22,3 +22,11 @@ class MyDocument extends Document {
 }
 
 export default MyDocument
+
+MyDocument.getInitialProps = async (ctx) => {
+  const initialProps = await Document.getInitialProps(ctx);
+
+  return {
+    ...initialProps,
+  };
+};
