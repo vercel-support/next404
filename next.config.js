@@ -5,17 +5,17 @@ module.exports = {
     domains: [],
   },
 
-  // Localisation config.
-  i18n: {
-    // These are all the supported locales for our app.
-    locales: ['en', 'ar'],
+  // // Localisation config.
+  // i18n: {
+  //   // These are all the supported locales for our app.
+  //   locales: ['en', 'ar'],
 
-    // This is the default locale when visiting a non-locale prefixed path e.g. `/hello`.
-    defaultLocale: 'en',
+  //   // This is the default locale when visiting a non-locale prefixed path e.g. `/hello`.
+  //   defaultLocale: 'en',
 
-    // Automatic locale detection.
-    localeDetection: true,
-  },
+  //   // Automatic locale detection.
+  //   localeDetection: true,
+  // },
 
   future: {
     webpack5: true,
